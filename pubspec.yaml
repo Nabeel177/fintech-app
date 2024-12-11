@@ -1,0 +1,31 @@
+name: dividend_project
+description: "A new Flutter project."
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+# Defines the version and build number for the app
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.7
+  fl_chart: ^0.69.2
+  chart_sparkline: ^1.1.1
+   
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Ensures Material Icons font is included
+  uses-material-design: true
+
+  # Adds assets to the application
+  assets:
+    - assets/images/
