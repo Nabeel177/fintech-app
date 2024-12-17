@@ -1,3 +1,9 @@
+import 'package:dividend_project/view/screens/Analystic%20Screen/analystic_screen.dart';
+import 'package:dividend_project/view/screens/Analystic%20Screen/transaction_screen.dart';
+import 'package:dividend_project/view/screens/Balance_Screen/Balance_screen.dart';
+import 'package:dividend_project/view/screens/Balance_Screen/screening_screen.dart';
+import 'package:dividend_project/view/screens/Forcasting_screen/balance_screen.dart';
+import 'package:dividend_project/view/screens/Forcasting_screen/forcasting_screen.dart';
 import 'package:dividend_project/view/screens/portfolio/portfolio_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:dividend_project/view/screens/create_profile_screen/signin_screen.dart';
@@ -18,9 +24,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: AppColors.whiteColor,
+        scaffoldBackgroundColor: Color(0xffF5F5F5),
       ),
-      home: PortfolioScreen(),
+      home: TransactionScreen(),
     );
   }
 }

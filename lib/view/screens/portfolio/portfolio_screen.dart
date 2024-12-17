@@ -20,13 +20,6 @@ class PortfolioScreen extends StatefulWidget {
 bool isSwitched = false;
 
 class _PortfolioScreenState extends State<PortfolioScreen> {
-  bool _rememberMe = false;
-  bool _rememberMe1 = false;
-  bool _rememberMe2 = false;
-  bool _rememberMe3 = false;
-  bool _rememberMe4 = false;
-  bool _rememberMe5 = false;
-  bool _rememberMe6 = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,6 +83,17 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                   ),
                 ],
               ),
+            ],
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              SvgPicture.asset(AppAssets.questionCircle),
+              SizedBox(width: 5),
+              SvgPicture.asset(AppAssets.group),
+              SizedBox(width: 5),
+              SvgPicture.asset(AppAssets.vector1),
             ],
           ),
           SizedBox(height: 10),

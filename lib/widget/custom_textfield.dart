@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:dividend_project/widget/app_colors.dart';
 
 class CustomTextField extends StatelessWidget {
   final String? hintText;
@@ -21,18 +20,20 @@ class CustomTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.greycolor,
         borderRadius: BorderRadius.circular(10),
       ),
       child: TextField(
         maxLines: maxLine,
         decoration: InputDecoration(
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(10),
+            borderSide: const BorderSide(color: Colors.grey),
+          ),
           hintText: hintText,
           prefixIcon:
               prefixIcon != null ? Icon(prefixIcon, color: Colors.grey) : null,
           suffixIcon:
               suffixIcon != null ? Icon(suffixIcon, color: Colors.grey) : null,
-          border: InputBorder.none,
           contentPadding:
               const EdgeInsets.symmetric(vertical: 17, horizontal: 20),
         ),

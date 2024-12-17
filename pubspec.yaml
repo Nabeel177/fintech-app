@@ -16,7 +16,8 @@ dependencies:
   flutter_svg: ^2.0.7
   fl_chart: ^0.69.2
   chart_sparkline: ^1.1.1
-   
+  flutter_sales_graph: ^0.0.2
+  k_chart: ^0.7.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

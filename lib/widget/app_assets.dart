@@ -39,4 +39,6 @@ class AppAssets {
   static const plus = "$assets/plus.svg";
   static const left = "$assets/left.svg";
   static const rght = "$assets/right.svg";
+  static const downleft = "$assets/down-left.svg";
+  static const upright = "$assets/up-right.svg";
 }

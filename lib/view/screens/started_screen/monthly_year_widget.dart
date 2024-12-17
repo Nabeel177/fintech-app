@@ -32,7 +32,7 @@ class _MonthlyYearWidgetState extends State<MonthlyYearWidget> {
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
       decoration: BoxDecoration(
         border: Border.all(color: AppColors.greycolor),
-        color: Colors.white,
+        color: Color(0xffF5F5F5),
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
           BoxShadow(

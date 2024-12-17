@@ -17,4 +17,6 @@ class AppColors {
   static const contentColorGreen = Color(0xff13d38e);
   static const mainTextColor1 = Colors.white;
   static const bluelight = Color(0xff9F94E4);
+  static const lightgreen = Color(0xff16ADAA);
+  static const lightgrey = Color(0xffF8FAFB);
 }
